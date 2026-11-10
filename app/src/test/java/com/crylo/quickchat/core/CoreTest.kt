@@ -50,6 +50,9 @@ class ChatAppTest {
     @Test fun telegramAndSignalUsePhoneLinks() {
         assertEquals("https://t.me/+919876543210", ChatApp.TELEGRAM.link("919876543210", "ignored"))
         assertEquals("https://signal.me/#p/+919876543210", ChatApp.SIGNAL.link("919876543210"))
+        assertEquals("tg://resolve?phone=919876543210", ChatApp.TELEGRAM.fallbackLink("919876543210"))
+        assertEquals("sgnl://signal.me/#p/+919876543210", ChatApp.SIGNAL.fallbackLink("919876543210"))
+        assertEquals(null, ChatApp.WHATSAPP.fallbackLink("919876543210"))
     }
 }
 

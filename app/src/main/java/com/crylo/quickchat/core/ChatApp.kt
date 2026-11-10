@@ -33,6 +33,16 @@ enum class ChatApp(val packages: List<String>, val supportsMessage: Boolean) {
         SIGNAL -> "https://signal.me/#p/+$digits"
     }
 
+    /**
+     * The app's own URI scheme for the same chat, tried only if the installed build
+     * doesn't claim the https link (forks and older versions sometimes don't).
+     */
+    fun fallbackLink(digits: String): String? = when (this) {
+        TELEGRAM -> "tg://resolve?phone=$digits"
+        SIGNAL -> "sgnl://signal.me/#p/+$digits"
+        else -> null
+    }
+
     companion object {
         fun fromName(name: String?): ChatApp? = entries.firstOrNull { it.name == name }
 

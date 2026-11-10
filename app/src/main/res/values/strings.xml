@@ -1,1 +1,60 @@
-<resources><string name="app_name">QuickChat</string></resources>
+<resources>
+    <string name="app_name">QuickChat</string>
+    <!-- Shown in the text-selection menu, the share sheet and the tel: link chooser. -->
+    <string name="chat_via">Chat via QuickChat</string>
+    <string name="tile_label">QuickChat</string>
+    <string name="tile_subtitle">Chat with copied number</string>
+
+    <string name="app_whatsapp">WhatsApp</string>
+    <string name="app_whatsapp_business">WhatsApp Business</string>
+    <string name="app_telegram">Telegram</string>
+    <string name="app_signal">Signal</string>
+    <string name="open_in">Open in %1$s</string>
+
+    <string name="number_label">Phone number</string>
+    <string name="number_help">Type or paste any number, with or without the country code</string>
+    <string name="number_preview">Opens chat with %1$s</string>
+    <string name="number_too_short">Too short for a phone number</string>
+    <string name="number_too_long">Too long for a phone number</string>
+    <string name="number_no_digits">No digits in this number</string>
+    <string name="paste">Paste number</string>
+    <string name="clear_number">Clear number</string>
+    <string name="message_label">Message (optional)</string>
+    <string name="message_help">WhatsApp fills it in. For Telegram and Signal it is copied so you can paste it.</string>
+
+    <string name="country_title">Country code</string>
+    <string name="country_search">Search country or code</string>
+
+    <string name="clipboard_found">Copied number</string>
+    <string name="use">Use</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="use_number">Use this number</string>
+
+    <string name="recent">Recent</string>
+    <string name="recent_help">Tap to reopen · long-press to edit the number</string>
+    <string name="history_off">Recent numbers are not being saved. Turn it on in Settings.</string>
+    <string name="label_title">Label</string>
+    <string name="label_hint">Name or note, e.g. Plumber</string>
+    <string name="remove">Remove</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+
+    <string name="settings">Settings</string>
+    <string name="setting_history">Keep recent numbers</string>
+    <string name="setting_history_desc">Saved only on this phone, never uploaded</string>
+    <string name="setting_clipboard">Suggest copied numbers</string>
+    <string name="setting_clipboard_desc">When the app opens, offer a phone number you copied</string>
+    <string name="setting_dial">Offer for phone links</string>
+    <string name="setting_dial_desc">Adds QuickChat next to the dialer when you tap a phone number</string>
+    <string name="clear_history">Clear recent numbers</string>
+    <string name="clear_history_title">Clear recent numbers?</string>
+    <string name="clear_history_text">All saved numbers and their labels will be deleted.</string>
+
+    <string name="msg_not_installed">%1$s is not installed</string>
+    <string name="msg_open_failed">Could not open %1$s</string>
+    <string name="msg_clipboard_no_number">No phone number on the clipboard</string>
+    <string name="msg_no_number_found">No phone number found in that text</string>
+    <string name="msg_share_no_number">No number found. The text was added as the message.</string>
+    <string name="msg_history_cleared">Recent numbers cleared</string>
+</resources>
