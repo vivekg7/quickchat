@@ -1,0 +1,1 @@
+First release: open WhatsApp, WhatsApp Business, Telegram or Signal chats with any number; text-selection, share, phone-link and Quick Settings entry points; recent numbers with labels.

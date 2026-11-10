@@ -1,0 +1,16 @@
+QuickChat opens a chat with a phone number without adding it to your contacts first. Handy for delivery people, shops, one-off sellers and anyone you only need to message once.
+
+Type or paste a number in almost any format — with spaces, dashes or brackets, a leading 0, a 00 prefix, or as a bare 10-digit Indian mobile — and QuickChat turns it into the right international number. Pick WhatsApp, WhatsApp Business, Telegram or Signal and the chat opens.
+
+Ways to start a chat:
+• The main screen, with a country-code picker and an optional pre-filled message
+• Select a number in any app and choose "Chat via QuickChat"
+• Share text that contains a number to QuickChat
+• Tap a phone-number link and choose QuickChat instead of the dialer
+• A Quick Settings tile that opens a chat with the number you just copied
+
+Recent numbers are kept on the phone so you can reopen them with one tap, and you can label them ("Plumber", "Courier"). History can be turned off and cleared at any time.
+
+No ads, no tracking, no analytics, no account. QuickChat has no internet permission at all: it only hands the number to the messenger you pick, using that messenger's official click-to-chat link.
+
+Free and open source under the MIT license.
